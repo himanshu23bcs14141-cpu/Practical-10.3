@@ -1,0 +1,1 @@
+Social media app with authentication, posts, and AWS deployment instructions.
