@@ -1,0 +1,10 @@
+Deployment Steps (AWS)
+----------------------
+1. Create EC2 instance (Ubuntu).
+2. Install Node.js, Nginx, PM2.
+3. Clone project / upload files.
+4. `cd backend && npm install express cors jsonwebtoken`
+5. Run `pm2 start server.js`
+6. Serve frontend using NGINX:
+   - Copy frontend to /var/www/html/
+   - Restart nginx
